@@ -1,8 +1,20 @@
-1) clone this repository (to simplify the setup all dependencies are part of this repository because it's just an example)
-2) run `yarn start` or `npm start`
-3) open `native-ios.xcworkspace` in Xcode
-4) build & run the app
-5) push the button - you should blue page with this:
+# Installation
+Clone this repository (to simplify the setup all dependencies are part of this repository because it's just an example)
+
+Run in the cloned folder:
+```
+brew install cocoapods yarn
+cd ios
+pod install
+open native-ios.xcodeproj
+cd ..
+yarn start
+```
+
+# Run the app
+Build & Run the app in XCode
+
+In the simulator push the button - you should see blue page with this:
 
 ```
 Congratulation!
